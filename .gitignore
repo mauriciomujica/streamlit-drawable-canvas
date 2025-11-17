@@ -12,7 +12,9 @@ eggs/
 .eggs/
 *.egg-info/
 *.egg
-
+# Only exclude Python build directory, not frontend build
+*/build/
+!streamlit_drawable_canvas/frontend/build/
 # Unit test / coverage reports
 .coverage
 .coverage\.*
