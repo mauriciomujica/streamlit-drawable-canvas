@@ -63,3 +63,7 @@ coverage/
 # VSCode
 ########################################################################
 .vscode/
+
+# Allow Streamlit component frontend build
+!streamlit_drawable_canvas/frontend/build/
+!streamlit_drawable_canvas/frontend/build/**
